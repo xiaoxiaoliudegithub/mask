@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	font-size:16px;
+	color: #000;
+}
+ul,ol,li{
+	list-style:none; 
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+.container-news{
+	width:1180px;
+	margin:0 auto;
+}
+.container-about{
+	width:970px;
+	margin:0 auto;
+	overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+input{
+	outline:none;
+}

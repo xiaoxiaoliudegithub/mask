@@ -1,0 +1,94 @@
+/*头部*/
+.header{
+	height: 120px;
+	background-color: #fff;
+}
+.header .logo{
+	display: inline-block;
+	margin-top: 40px;
+}
+.header .top-nav{
+	line-height: 120px;
+	float: right;
+}
+.header .top-nav a{
+	display: inline-block;
+	position: relative;
+	color: #999;
+	margin:0 40px;
+}
+.header .top-nav a.on{
+	color: #0d8f86;
+}
+.header .top-nav .line{
+    position: absolute;
+	left: 0;
+	top: 74px;
+	left: 50%;
+	margin-left: -16.5px;
+	width: 33px;
+	height: 1px;
+	background-color: #0d8f86;
+	opacity: 0;
+}
+.header .top-nav .on .line{
+	opacity: 1;
+}
+.header .top-nav a:hover{
+	color: #0d8f86;
+}
+.header .top-nav a:hover .line{
+	opacity: 1;
+}
+/*轮播图*/
+.rotation{
+	margin-bottom: 40px;
+}
+.rotation img{
+	width: 100%;
+}
+/*关于我们*/
+.about{
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+.about .about_position{
+	color: #999999;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 80px;
+}
+.about .about_position span{
+	color: #009999;
+}
+.about .about_picture{
+	float: left;
+}
+.about .about_text{
+	width: 670px;
+	float: right;
+}
+.about .about_text span{
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+}
+.about .about_text p{
+	color: #666666;
+	font-size: 14px;
+	line-height: 25px;
+}
+.about .about_text p:nth-child(2){
+	margin: 40px 0;
+}
+/*底部*/
+.footer{
+	height: 70px;
+	border-top: 1px solid #eeeeee; 
+}
+.footer p{
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+	line-height: 70px;
+}

@@ -1,0 +1,238 @@
+/*头部*/
+.header{
+	width:100%;
+	height:120px;
+	background-color:#ffffff;
+}
+.header .header-con{
+	overflow: hidden;
+}
+.header .header-con div img{
+	float:left;
+	margin-top:40px;
+}
+.header .header-con .header-nav{
+	float:right;
+	overflow: hidden;
+}
+.header .header-con .header-nav li{
+	float:left;
+	margin:0 40px;
+	position:relative;
+	overflow: hidden;
+}
+.header .header-con .header-nav li a{
+	display:inline-block;
+	line-height:120px;
+	color:#999999;
+}
+.header .header-con .header-nav li span{
+	width:0px;
+	height:1px;
+	position:absolute;
+	top:79px;
+	left:50%;
+	margin-left:-16.5px;
+	background-color: #fff;
+	transition:all 2s;
+}
+.header .header-con .header-nav li.on a{
+	color:#0f8e87;
+}
+.header .header-con .header-nav li.on span{
+	width:33px;
+	background-color: #0f8e87;
+}
+.header .header-con .header-nav li:hover a{
+	color:#0f8e87;
+	transition:color 2s;
+}
+.header .header-con .header-nav li:hover span{
+	width:33px;
+	background-color: #0f8e87;
+}
+/*背景图片*/
+.backg-img{
+	margin:0 auto;
+}
+.backg-img img{
+	width:100%;
+}
+/*案例中心*/
+.place{
+	color:#999999;
+	font-size:16px;
+	margin-bottom:80px;
+	padding:40px 0 80px 0;
+}
+.place a{
+	color:#999999;
+	font-size:16px;
+}
+.place a:hover{
+	color:#009999;
+	transition: color 2s;
+}
+.place a.on{
+	color:#009999;
+	font-size:16px;
+}
+/*新闻中心*/
+.news li{
+	width:100%;
+	overflow: hidden;
+	border-bottom:1px solid #f0f0f0;
+}
+.news li:hover{
+	background-color:#f0f0f0;
+	transition:all 2s;
+}
+.news li img{
+	float:left;
+	margin:40px 0;
+}
+.news li .news-con{
+	width:540px;
+	float:right;
+}
+.news li .news-con h2{
+	font-size:28px;
+	color:#78787c;
+	margin-top:85px;
+}
+.news li .news-con h2 span{
+	margin-left:14px;
+	font-size:14px;
+	color:#78787c;
+}
+.news li .news-con h2:hover{
+	color:#0f8e87;
+	transform: all 2s;
+	cursor: pointer;
+}
+.news li .news-con h2:hover span{
+	color:#0f8e87;
+	transform: all 2s;
+}
+.news li .news-con div{
+	overflow: hidden;
+	margin:40px 0 24px 0;
+}
+.news li .news-con div a{
+	font-size:16px;
+	color:#333333;
+	float:left;
+}
+.news li .news-con div span{
+	float:right;
+	font-size:16px;
+	color:#0f8e87;
+	opacity: 0;
+}
+.news li .news-con div:hover a{
+	color:#0f8e87;
+	transform: all 2s;
+}
+.news li .news-con div:hover span{
+	opacity: 1;
+	transition:all 2s;
+	cursor: pointer;
+}
+.news li .news-con p{
+	font-size:14px;
+	color:#78787c;
+	line-height:20px;
+}
+.news li .news-con p:hover{
+	color:#0f8e87;
+	transform: all 2s;
+	cursor: pointer;
+}
+.news .console{
+	padding:40px 0 80px 0;
+	margin:0 auto;
+	height:30px;
+	width:551px;
+	overflow: hidden;
+}
+.news .console div{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	background-color:#cccccc;
+	border-radius:2px;
+	float:left;
+	margin:0 24px;
+}
+.news .console div:hover{
+	background-color: #009999;
+	cursor:pointer;
+	transition:all 2s;
+}
+.news .console div:nth-child(1){
+	margin-left:0;
+}
+.news .console span{
+	display:inline-block;
+	width:19px;
+	height:27px;
+	text-align: center;
+	line-height:27px;
+	font-size:12px;
+	color:#000;
+	margin:0 5px;
+	float:left;
+}
+.news .console span:hover{
+	cursor:pointer;
+	transition:all 2s;
+	color:#fff;
+	background-image:url('../images/case7_03.png');
+}
+.news .console form{
+	float:left;
+}
+.news .console form p{
+	color:#999999;
+	display: inline-block;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+}
+.news .console form input{
+	width:30px;
+	height:30px;
+	border:1px solid #cccccc;
+	border-radius:1px;
+	margin:0 8px;
+}
+.news .console form input.imput{
+	width:60px;
+	height:30px;
+	border-radius:2px;
+	background-color:#cccccc;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+}
+.news .console form input.imput:hover{
+	background-color: #009999;
+	cursor:pointer;
+	transition:all 2s;
+}
+/*底部*/
+.footer{
+	height:40px;
+	border-top:1px solid #999999;
+}
+.footer .container{
+	text-align:center;
+}
+.footer .container p{
+	color:#999999;
+	font-size:12px;
+	line-height:40pxnews
